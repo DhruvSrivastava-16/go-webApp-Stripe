@@ -11,7 +11,7 @@ cmd = "go build -o ./tmp/main ./cmd/web/"
 # Binary file yields from `cmd`.
 bin = "tmp main"
 # Customize binary.
-full_bin = "STRIPE_SECRET=sk_test_mXWrR1RN6fjIJnDsLPq1mAGX STRIPE_KEY=pk_test_lOwqX0SiQCGm7wSkqNoBgMLc ./tmp/main"
+full_bin = "STRIPE_SECRET=sk_test_51NeoyqEHv03CcP7tiicLMhKoX9x0JSJtQT9h09bWZ3K8seHc2xMBCTxZHHCuDCht1Mo5N9bQrBToxMNNAgqRIjxy00y7lGs9KV STRIPE_KEY=pk_test_51NeoyqEHv03CcP7ttwVWk6w5WLNKv4daB3AysynSsNt50g08n9FqMhunU1IhUA9GbzpouAQtv6fXA6scjXRw0AUj00VyWC0AGY ./tmp/main"
 # Watch these filename extensions.
 include_ext = ["go", "tpl", "tmpl", "html", "gohtml"]
 # Ignore these filename extensions or directories.

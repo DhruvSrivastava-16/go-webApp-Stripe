@@ -16,6 +16,7 @@ func (app *application) routes() http.Handler {
 		AllowCredentials: false,
 		MaxAge:           300,
 	}))
-	mux.Get("/virtual-env", app.VirtualTerminal)
+
+	mux.Get("/api/checkpaymentintent", app.GetPaymentIntent)
 	return mux
 }
